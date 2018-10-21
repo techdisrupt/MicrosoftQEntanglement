@@ -2,11 +2,12 @@
 
 If you ever wondered how to use Microsoft Products in creating quantum algorithms, here is a very minimal example piece of code based on a Microsoft example. However the reason the code exists here in this repo is that there appears to be quite a few issues in the community of getting this code to run and work correctly.
 
-Also you can think of this example, if you cannot be bothered to follow the step by step example and you simply want to get some base code running.
+Also you can think of this repo as another way to jump start your entry into using Quantum Tools from Microst, if you cannot be bothered to follow the step by step example and you simply want to get some base code running. If you want to see more explanation of the routines and code, you can work through the example [here](https://docs.microsoft.com/en-us/quantum/quantum-writeaquantumprogram?view=qsharp-preview&tabs=tabid-vs2017)
 
 # What you need for this example
 
-1. VScode (Microsoft Visual Studio Code) (This is a fantastic Microsoft Editor)
+1. VScode (Microsoft Visual Studio Code) (This is a fantastic Microsoft Editor). [Get MS Visual Studio Code](https://code.visualstudio.com/download)
+
 2. This repo.
 3. Some basic knowledge of coding.
 4. Some elementary understanding of Quantum Coding or Quantum Information.
@@ -21,7 +22,7 @@ Also you can think of this example, if you cannot be bothered to follow the step
 
 1. Get the cold.
 2. Open the folder in VScode.
-3. Go to the terminal tab, and type: dotnet run
+3. Go to the terminal tab, and type: `dotnet run`
 
 # Expected output
 
