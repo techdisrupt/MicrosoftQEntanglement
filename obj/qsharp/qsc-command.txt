@@ -1,0 +1,13 @@
+:: files ::
+Bell.qs
+:: qsim ::
+:: references ::
+/Users/brett/.nuget/packages/microsoft.quantum.canon/0.2.1809.701-preview/lib/netstandard2.0/Microsoft.Quantum.Canon.dll
+/Users/brett/.nuget/packages/microsoft.quantum.development.kit/0.2.1809.701-preview/lib/netstandard2.0/Microsoft.Quantum.MetaData.dll
+/Users/brett/.nuget/packages/microsoft.quantum.development.kit/0.2.1809.701-preview/lib/netstandard2.0/Microsoft.Quantum.Primitives.dll
+/Users/brett/.nuget/packages/microsoft.quantum.development.kit/0.2.1809.701-preview/lib/netstandard2.0/Microsoft.Quantum.Simulation.Common.dll
+/Users/brett/.nuget/packages/microsoft.quantum.development.kit/0.2.1809.701-preview/lib/netstandard2.0/Microsoft.Quantum.Simulation.Core.dll
+/Users/brett/.nuget/packages/microsoft.quantum.development.kit/0.2.1809.701-preview/lib/netstandard2.0/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll
+/Users/brett/.nuget/packages/microsoft.quantum.development.kit/0.2.1809.701-preview/lib/netstandard2.0/Microsoft.Quantum.Simulation.Simulators.dll
+:: command ::
+dotnet "/Users/brett/.nuget/packages/microsoft.quantum.development.kit/0.2.1809.701-preview/build/../tools/qsc/qsc.dll" --input "Bell.qs" --references "/Users/brett/.nuget/packages/microsoft.quantum.canon/0.2.1809.701-preview/lib/netstandard2.0/Microsoft.Quantum.Canon.dll" "/Users/brett/.nuget/packages/microsoft.quantum.development.kit/0.2.1809.701-preview/lib/netstandard2.0/Microsoft.Quantum.MetaData.dll" "/Users/brett/.nuget/packages/microsoft.quantum.development.kit/0.2.1809.701-preview/lib/netstandard2.0/Microsoft.Quantum.Primitives.dll" "/Users/brett/.nuget/packages/microsoft.quantum.development.kit/0.2.1809.701-preview/lib/netstandard2.0/Microsoft.Quantum.Simulation.Common.dll" "/Users/brett/.nuget/packages/microsoft.quantum.development.kit/0.2.1809.701-preview/lib/netstandard2.0/Microsoft.Quantum.Simulation.Core.dll" "/Users/brett/.nuget/packages/microsoft.quantum.development.kit/0.2.1809.701-preview/lib/netstandard2.0/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll" "/Users/brett/.nuget/packages/microsoft.quantum.development.kit/0.2.1809.701-preview/lib/netstandard2.0/Microsoft.Quantum.Simulation.Simulators.dll" --outputpath obj/qsharp/src/
