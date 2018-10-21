@@ -23,6 +23,24 @@ Also you can think of this example, if you cannot be bothered to follow the step
 2. Open the folder in VScode.
 3. Go to the terminal tab, and type: dotnet run
 
+# Expected output
+
+You should see something like this:
+
+Init:Zero 0s=499  1s=501  agree=1000
+Init:One  0s=521  1s=479  agree=1000
+Press any key to continue...
+
+## Quantum Statistics
+
+This is for a thousand runs, essentially the code is measuring the output of a Qubit after being placed into an initial state and then being operated upon with a Hadamard Transformation (H) and then we measure the number of 0's and 1's or |0> or |1>. This by it's very nature is probabalistic so you will likely see a very different number of 0s and 1s, but you should not deviate too far from 500 each, or a 50%-50% split.
+
+## Quantum Entanglement
+
+Applying the Hadamard and CNOT to a pair of Qubits, we create an entangled state. This means that if we measure the first Qubit and the second, we will expect 100% agreement. As you can see from the output this is the case as we have generated the Bell state: |00> + |11>. Be don't know whether we get |00> or |11> but we do always have either 00 or 11 and hence always agree. 
+
+
+
 
 
 
