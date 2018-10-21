@@ -27,9 +27,11 @@ Also you can think of this example, if you cannot be bothered to follow the step
 
 You should see something like this:
 
+```
 Init:Zero 0s=499  1s=501  agree=1000
 Init:One  0s=521  1s=479  agree=1000
 Press any key to continue...
+```
 
 ## Quantum Statistics
 
